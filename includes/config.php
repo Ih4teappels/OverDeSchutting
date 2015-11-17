@@ -10,20 +10,25 @@ define('PROJECT_STATUS','development');
 setlocale(LC_ALL, 'nl_NL');
 
 // databasegegevens
+//
+//    if($_SERVER['HTTP_HOST'] == 'localhost'){
+//        define('DB_HOST','localhost');
+//        define('DB_NAME','overdeschutting');
+//        define('DB_USERNAME','root');
+//        define('DB_PASSWORD','');
+//    } else {
+//        define('DB_HOST','127.0.0.1');
+//        define('DB_NAME','overDeSchutting');
+//        define('DB_USERNAME','ODS');
+//        define('DB_PASSWORD','overDeSchuttingPass');
+//        //ODS
+//        //overDeSchuttingPass
+//    }
 
-    if($_SERVER['HTTP_HOST'] == 'localhost'){
-        define('DB_HOST','localhost');
-        define('DB_NAME','overdeschutting');
-        define('DB_USERNAME','root');
-        define('DB_PASSWORD','');
-    } else {
-        define('DB_HOST','127.0.0.1');
-        define('DB_NAME','17786_myband');
-        define('DB_USERNAME','kevinm97');
-        define('DB_PASSWORD','mybandpass');
-        //kevinm97
-        //mybandpass
-    }
+    define('DB_HOST','localhost');
+    define('DB_NAME','overdeschutting');
+    define('DB_USERNAME','root');
+    define('DB_PASSWORD','');
 
     define('NR_ITEMS_PAGE',3);
 
