@@ -8,19 +8,13 @@ body {
   background-repeat: no-repeat;
   background-position: top;
   height: auto;
-  max-width: 100%;
+  min-width: 100%;
   font-family: 'tahoma'; }
   body h1 {
     font-size: 40px; }
 
 #wrapper {
-<<<<<<< HEAD
-  margin-left: 15em;
-  margin-right: 15em;
-=======
   margin: auto;
-  margin-top: 10em;
->>>>>>> 9a9ab979e3e368143ceeb8b712f2fa91ddb27849
   width: 75%;
   height: 80%;
   background-color: #ffffff;
