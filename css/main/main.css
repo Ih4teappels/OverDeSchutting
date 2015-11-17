@@ -10,20 +10,33 @@ body {
   height: auto;
   max-width: 100%;
   font-family: 'tahoma'; }
-
-body h1 {
-  font-size: 40px; }
+  body h1 {
+    font-size: 40px; }
 
 #wrapper {
+<<<<<<< HEAD
   margin-left: 15em;
   margin-right: 15em;
+=======
+  margin: auto;
+  margin-top: 10em;
+>>>>>>> 9a9ab979e3e368143ceeb8b712f2fa91ddb27849
   width: 75%;
   height: 80%;
-  background-color: yellow;
+  background-color: #ffffff;
   border-radius: 10px;
   color: #000000;
-  padding: 5em;
-  padding-top: 0;
+  padding-top: 0; }
+  #wrapper h2 {
+    color: red;
+    border-bottom: 1px dotted #000000;
+    padding-bottom: .5rem;
+    padding-left: 3em;
+    padding-right: 3em;
+    margin-left: 3em;
+    margin-right: 3em; }
+
+.pagination {
   background: -webkit-linear-gradient(#ffff00, #ffffff);
   /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(#ffff00, #ffffff);
@@ -31,23 +44,20 @@ body h1 {
   background: -moz-linear-gradient(#ffff00, #ffffff);
   /* For Firefox 3.6 to 15 */
   background: linear-gradient(#ffff00, #ffffff);
-  /* Standard syntax */ }
-
-.pagination li {
-  list-style-type: none;
-  display: inline-block;
-  padding: .5rem;
-  margin: .5rem;
-  border-right: 1px solid #000;
-  color: #000000;
-  font-weight: bold; }
+  /* Standard syntax */
+  padding-left: 5em;
+  padding-right: 5em;
+  border-radius: 10px; }
+  .pagination li {
+    list-style-type: none;
+    display: inline-block;
+    padding: .5rem;
+    margin: .5rem;
+    border-right: 1px solid #000;
+    color: #000000;
+    font-weight: bold; }
 
 .pagination a {
   text-decoration: none; }
-
-#wrapper h2 {
-  color: red;
-  border-bottom: 1px dotted #000000;
-  padding-bottom: .5rem; }
 
 /*# sourceMappingURL=main.css.map */
