@@ -7,13 +7,13 @@ require_once 'includes/database.php' ;
 
 
 include 'views/head.php';
-
+include 'views/header.php';
 $page = (empty($_GET['page'])) ? '' : $_GET['page'];
 
 
 
 
-include 'views/header.php';
+
 
 switch ($page) {
 
