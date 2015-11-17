@@ -5,17 +5,17 @@ require 'includes/config.php' ;
 // Maak de database connectie
 require_once 'includes/database.php' ;
 
+$page = (empty($_GET['page'])) ? '' : $_GET['page'];
 
 include 'views/head.php';
 include 'views/header.php';
-$page = (empty($_GET['page'])) ? '' : $_GET['page'];
-
-
-
 
 
 
 switch ($page) {
+    case 'one':
+        include 'views/footer.php';
+        break;
 
     default:
 
@@ -24,4 +24,4 @@ switch ($page) {
 
 }
 
-include 'views/footer.php';
+//include 'views/footer.php';
