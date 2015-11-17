@@ -1,11 +1,20 @@
 header {
   width: 75%;
   margin: auto; }
+  header #nav {
+    width: 50%;
+    display: inline-block;
+    margin-top: -6em;
+    margin-left: -19em; }
   header li {
     list-style-type: none;
-    display: inline-block; }
-  header image {
     display: inline-block;
-    margin: auto; }
+    width: auto; }
+  header #toptxt {
+    margin-top: -8em;
+    padding-left: 1em; }
+  header #logo {
+    padding-top: 1em;
+    padding-right: 1em; }
 
 /*# sourceMappingURL=nav.css.map */

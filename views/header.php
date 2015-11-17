@@ -1,10 +1,10 @@
 <header>
-    <img src="img/logo.png" alt="">
-    <img src="img/tour.png" alt="">
-    <img src="img/top.png" alt="">
-    <img src="img/100.png" alt="">
+    <img src="img/logo.png" id="logo">
+    <img src="img/tour.png" id="toptxt" alt="">
+    <img src="img/top.png" id="toptxt" alt="">
+    <img src="img/100.png" id="toptxt" alt="">
 
-    <ul>
+    <ul id="nav">
         <li>
             RADIO1.NL
         </li>

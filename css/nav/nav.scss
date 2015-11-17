@@ -3,14 +3,30 @@ header{
   width: 75%;
   margin: auto;
 
+  #nav{
+    width: 50%;
+    display: inline-block;
+    margin-top: -6em;
+    margin-left: -19em;
+
+  }
+
   li{
     list-style-type: none;
     display: inline-block;
+    width: auto;
+
   }
 
-  image{
-    display:inline-block;
-    margin: auto;
+  #toptxt{
+
+    margin-top: -8em;
+    padding-left: 1em;
+  }
+
+  #logo{
+    padding-top: 1em;
+    padding-right: 1em;
   }
 
 }
