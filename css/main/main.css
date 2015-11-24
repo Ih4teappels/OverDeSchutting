@@ -18,8 +18,9 @@ html {
 
 #wrapper {
   margin: auto;
+  margin-top: 15em;
   width: 75%;
-  height: 80%;
+  height: 60%;
   background-color: #ffffff;
   border-radius: 10px;
   border: 5px solid #ffffff;
