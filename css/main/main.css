@@ -17,9 +17,9 @@ html {
   height: 100%; }
 
 #wrapper {
-  margin: auto;
+  margin: 0 auto;
   margin-top: 15em;
-  width: 75%;
+  width: 1077px;
   height: 60%;
   background-color: #ffffff;
   border-radius: 10px;
@@ -44,14 +44,14 @@ html {
   /* For Firefox 3.6 to 15 */
   background: linear-gradient(#f4e441, #ffffff);
   /* Standard syntax */
-  padding-left: 5em;
-  padding-right: 5em;
+  padding-left: 0;
+  padding-right: 0;
   margin-top: 0; }
   .pagination li {
     list-style-type: none;
     display: inline-block;
     padding: 0.5rem;
-    margin: .5rem;
+    margin: 0.2rem;
     border-right: 1px solid #000;
     color: #000000;
     font-weight: bold; }
