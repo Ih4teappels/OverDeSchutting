@@ -3,12 +3,10 @@ header{
   width: 75%;
   margin: auto;
 
-  #nav{
+  ul{
     width: 50%;
+    margin-left: 10em;
     display: inline-block;
-    margin-top: -6em;
-    margin-left: -19em;
-
   }
 
   li{
@@ -19,14 +17,42 @@ header{
   }
 
   #toptxt{
-
-    margin-top: -8em;
+    display: flex;
+    margin: 0em;
     padding-left: 1em;
   }
+
+
 
   #logo{
     padding-top: 1em;
     padding-right: 1em;
   }
 
+  .fadedNavItem{
+    height: 100%;
+    width: auto;
+    border: 0px solid #fff;
+    float: right;
+  }
+
+  .fadedNavItem p{
+    text-align: center;
+    font-family: monospace;
+    font-size: 10px;
+    color: grey;
+    margin-top : 5px;
+    padding-right: 3px;
+  }
+
+  #fadedNav hr{
+    width: 1px;
+    height: 10px;
+    margin-top: 6px;
+    margin-left: .5em;
+    float: right;
+    color: grey;
+    background-color: grey;
+    margin-right: 1%;
+  }
 }
