@@ -29,9 +29,9 @@
         </div>
     </div>
 
-    <img src="img/logo.png" id="logo">
-    <div id="top">
-    <img src="img/toptxt.png" id="toptxt" alt="">
+<!--    <img src="img/logo.png" id="logo">-->
+  <div id="top">-->
+<!--    <img src="img/toptxt.png" id="toptxt" alt="">-->
 
 
     <ul id="nav">
