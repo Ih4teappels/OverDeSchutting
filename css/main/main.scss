@@ -26,7 +26,7 @@ html {
 
 #wrapper {
   margin: auto;
-  margin-top: 15em;
+  margin-top: 10em;
   width: 75%;
   height: 60%;
   background-color: #ffffff;
@@ -58,16 +58,29 @@ html {
     li {
       list-style-type: none;
       display: inline-block;
-      padding: .5rem  ;
-      margin: .5rem;
+      /*padding: .2rem;*/
+      padding-top: .5rem;
+      padding-bottom: .5rem;
+      padding-left: 0;
+      /*padding-right: .3rem;*/
+      margin-left: 1rem;
+      margin-top: .5rem;
+      margin-bottom: .5rem;
+      /*margin-right: .2rem;*/
+      /*margin: .5rem;*/
       border-right: 1px solid #000;
+      border-width: 1px;
       color: #000000;
       font-weight: bold;
 
     }
+    #juli {
+      padding-right: .5rem;
+    }
       a{
         color: #000000;
         text-decoration: none;
+        margin-right: .7rem;
       }
 }
 

@@ -30,10 +30,9 @@
     </div>
 
 <!--    <img src="img/logo.png" id="logo">-->
-<<<<<<< HEAD
-=======
+
   <div id="top">
->>>>>>> 212633132b39b80ea940579f22afe690b4f00af0
+
 <!--    <img src="img/toptxt.png" id="toptxt" alt="">-->
 
 
