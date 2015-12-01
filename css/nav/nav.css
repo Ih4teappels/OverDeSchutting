@@ -1,6 +1,9 @@
 header {
   width: 75%;
   margin: auto; }
+  header #nav {
+    padding-top: 10em;
+    margin-left: 12em; }
   header ul {
     width: 50%;
     margin-left: 10em;

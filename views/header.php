@@ -30,7 +30,6 @@
     </div>
 
 <!--    <img src="img/logo.png" id="logo">-->
-  <div id="top">-->
 <!--    <img src="img/toptxt.png" id="toptxt" alt="">-->
 
 
@@ -45,7 +44,6 @@
             <input type="text">
         </li>
     </ul>
-    </div>
 
 
 </header>
