@@ -12,7 +12,7 @@
 
     <div id="pageWrapper">
 
-        <h2>Vandaag in de Radio 1 Tour Top 100</h2>
+        <h2>Top 100 Lijst</h2>
 
     </div>
 

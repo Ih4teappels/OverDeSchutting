@@ -36,7 +36,7 @@
 <!--    <img src="img/toptxt.png" id="toptxt" alt="">-->
 
     <div id="navi">
-      <ul id="menu_wrap" class="Black"><li class="button"><a href="#">RADIO1.NL</a></li><li class="button"><a href="#">TOUR TOP 100</a></li> <li class="search"><a href="#"></a><input type="text" placeHolder="Search"  /></li></ul>
+      <ul id="menu_wrap" class="Black"><li class="button"><a href="http://www.radio1.nl/">RADIO1.NL</a></li><li class="button"><a href="?page=top100lijst">TOUR TOP 100</a></li> <li class="search"><a href="#"></a><input type="text" placeHolder="Search"  /></li></ul>
     </div>
 
 </header>

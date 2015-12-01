@@ -17,10 +17,35 @@ include 'views/header.php';
 
 
 switch ($page) {
-    case 'one':
-        include 'views/footer.php';
+    case 'home':
+
+        include 'views/home.php';
+
         break;
 
+    case 'testimonials':
+
+        include 'views/testimonials.php';
+        
+        break;
+
+    case 'prijsvraag':
+
+        include 'views/prijsvraag.php';
+        
+        break;
+
+    case 'top100lijst':
+
+        include 'views/top100lijst.php';
+        
+        break;
+
+	case 'detail':
+
+        include 'views/detail.php';
+        
+        break;
     
 
 
