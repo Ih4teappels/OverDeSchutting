@@ -35,18 +35,8 @@
 
 <!--    <img src="img/toptxt.png" id="toptxt" alt="">-->
 
-
-    <ul id="nav">
-        <li>
-            RADIO1.NL
-        </li>
-        <li>
-            TOUR TOP 100
-        </li>
-        <li>
-            <input type="text">
-        </li>
-    </ul>
-
+    <div id="navi">
+      <ul id="menu_wrap" class="Black"><li class="button"><a href="#">RADIO1.NL</a></li><li class="button"><a href="#">TOUR TOP 100</a></li> <li class="search"><a href="#"></a><input type="text" placeHolder="Search"  /></li></ul>
+    </div>
 
 </header>
