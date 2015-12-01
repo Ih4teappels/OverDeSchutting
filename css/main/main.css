@@ -26,14 +26,17 @@ html {
   border: 5px solid #ffffff;
   color: #000000;
   padding-top: 0; }
-  #wrapper h2 {
+  #wrapper #pageHeader {
     color: red;
     border-bottom: 1px dotted #000000;
     padding-bottom: .5rem;
     padding-left: 3em;
     padding-right: 3em;
     margin-left: 3em;
-    margin-right: 3em; }
+    margin-right: 3em;
+    text-align: left;
+    margin-left: 0;
+    padding-left: 0; }
   #wrapper #pagWrapper {
     /*width: auto;*/
     height: 2em;
@@ -70,13 +73,23 @@ html {
     margin-top: 4px; }
   #wrapper #pageWrapper {
     margin-left: 2em; }
-    #wrapper #pageWrapper h2 {
-      text-align: left;
-      margin-left: 0;
-      padding-left: 0; }
-    #wrapper #pageWrapper #100list {
-      float: left; }
-      #wrapper #pageWrapper #100list h2 {
-        text-decoration: none; }
+    #wrapper #pageWrapper img {
+      float: left;
+      height: auto; }
+    #wrapper #pageWrapper h3 {
+      color: #fff;
+      background-color: red;
+      padding-top: .3em;
+      padding-bottom: .3em;
+      padding-left: .5em;
+      padding-right: .5em;
+      float: left;
+      margin-top: 0;
+      margin-left: .2em;
+      margin-right: .5em; }
+    #wrapper #pageWrapper h4 {
+      padding-top: .3em;
+      font-size: 20px;
+      margin-bottom: .2em; }
 
 /*# sourceMappingURL=main.css.map */

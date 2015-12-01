@@ -35,7 +35,7 @@ html {
   color: #000000;
 //  padding: 5em;
   padding-top: 0;
-    h2 {
+    #pageHeader {
       color: red;
       border-bottom: 1px dotted #000000;
       padding-bottom: .5rem;
@@ -43,6 +43,9 @@ html {
       padding-right: 3em;
       margin-left: 3em;
       margin-right: 3em;
+      text-align: left;
+       margin-left: 0;
+      padding-left: 0;
     }
 
     #pagWrapper {
@@ -83,24 +86,40 @@ html {
           margin-top: 4px;
         }
 
-    #pageWrapper {
-      margin-left: 2em;
+#pageWrapper {
+  margin-left: 2em;
 
-        h2 {
-          text-align: left;
-          margin-left: 0;
-          padding-left: 0;
-        }
-
-        #100list {
-          float: left;
-
-            h2 {
-              text-decoration: none;
-
-            }
-        }
+    img {
+      float: left;
+      height: auto;
     }
+
+    h3 {
+      color: #fff;
+      background-color: red;
+      padding-top: .3em;
+      padding-bottom: .3em;
+      padding-left: .5em;
+      padding-right: .5em;
+      float: left;
+      margin-top: 0;
+      margin-left: .2em;
+      margin-right: .5em;
+
+    }
+
+    h4 {
+      padding-top: .3em;
+      font-size: 20px;
+      margin-bottom: .2em;
+      
+    }
+
+    p {
+      
+    }
+
+}
 
 
 

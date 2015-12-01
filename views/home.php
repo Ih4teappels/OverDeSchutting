@@ -12,7 +12,11 @@
 
     <div id="pageWrapper">
 
-        <h2>Vandaag in de Radio 1 Tour Top 100</h2>
+        <h2 id="pageHeader">Vandaag in de Radio 1 Tour Top 100</h2>
+
+        <?php
+            require 'models/select_top100list.php';
+        ?>
 
     </div>
 
