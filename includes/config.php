@@ -25,6 +25,6 @@ setlocale(LC_ALL, 'nl_NL');
         //overDeSchuttingPass
     }
 
-    define('NR_ITEMS_PAGE',3);
+    define('NR_ITEMS_PAGE',5);
 
 ?>

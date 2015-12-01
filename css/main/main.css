@@ -20,7 +20,7 @@ html {
   margin: auto;
   margin-top: 10em;
   width: 75%;
-  height: 60%;
+  height: auto;
   background-color: #ffffff;
   border-radius: 10px;
   border: 5px solid #ffffff;
@@ -68,5 +68,15 @@ html {
     font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
     text-align: center;
     margin-top: 4px; }
+  #wrapper #pageWrapper {
+    margin-left: 2em; }
+    #wrapper #pageWrapper h2 {
+      text-align: left;
+      margin-left: 0;
+      padding-left: 0; }
+    #wrapper #pageWrapper #100list {
+      float: left; }
+      #wrapper #pageWrapper #100list h2 {
+        text-decoration: none; }
 
 /*# sourceMappingURL=main.css.map */
