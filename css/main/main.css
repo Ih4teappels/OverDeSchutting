@@ -36,7 +36,7 @@ html {
     margin-right: 3em; }
   #wrapper #pagWrapper {
     /*width: auto;*/
-    height: 5em;
+    height: 2em;
     background: -webkit-linear-gradient(#f4e441, #ffffff);
     /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#f4e441, #ffffff);
@@ -45,9 +45,11 @@ html {
     /* For Firefox 3.6 to 15 */
     background: linear-gradient(#f4e441, #ffffff);
     /* Standard syntax */
-    padding-left: 2em;
+    padding-left: 1em;
     padding-right: 2em;
-    margin-top: 0; }
+    margin-top: 0;
+    padding-top: .2em;
+    font-size: 25px; }
   #wrapper #month {
     float: left; }
   #wrapper .monthFont {
@@ -61,7 +63,7 @@ html {
     float: left;
     border-right: 1px solid #000;
     padding-left: 13px;
-    padding-right: 13px; }
+    padding-right: 10px; }
   #wrapper .numberBlock p {
     font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
     text-align: center;
