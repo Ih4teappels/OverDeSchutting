@@ -1,6 +1,7 @@
 header {
   width: 75%;
-  margin: auto; }
+  margin: auto;
+  padding-top: 2em; }
   header #nav {
     padding-top: 10em;
     margin-left: 12em; }
@@ -151,6 +152,6 @@ header {
     background: #000; }
   header #navi {
     margin-left: 16em;
-    margin-top: 9em; }
+    margin-top: 8em; }
 
 /*# sourceMappingURL=nav.css.map */
