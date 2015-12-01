@@ -34,41 +34,37 @@ html {
     padding-right: 3em;
     margin-left: 3em;
     margin-right: 3em; }
-
-.pagination {
-  background: -webkit-linear-gradient(#f4e441, #ffffff);
-  /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#f4e441, #ffffff);
-  /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#f4e441, #ffffff);
-  /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#f4e441, #ffffff);
-  /* Standard syntax */
-  padding-left: 5em;
-  padding-right: 5em;
-  margin-top: 0; }
-  .pagination li {
-    list-style-type: none;
-    display: inline-block;
-    /*padding: .2rem;*/
-    padding-top: .5rem;
-    padding-bottom: .5rem;
-    padding-left: 0;
-    /*padding-right: .3rem;*/
-    margin-left: 1rem;
-    margin-top: .5rem;
-    margin-bottom: .5rem;
-    /*margin-right: .2rem;*/
-    /*margin: .5rem;*/
+  #wrapper #pagWrapper {
+    /*width: auto;*/
+    height: 5em;
+    background: -webkit-linear-gradient(#f4e441, #ffffff);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#f4e441, #ffffff);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#f4e441, #ffffff);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#f4e441, #ffffff);
+    /* Standard syntax */
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-top: 0; }
+  #wrapper #month {
+    float: left; }
+  #wrapper .monthFont {
+    margin-left: 3.5%;
+    float: left;
+    margin-top: 4px;
+    font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif; }
+  #wrapper .numberBlock {
+    height: 30px;
+    width: 25px;
+    float: left;
     border-right: 1px solid #000;
-    border-width: 1px;
-    color: #000000;
-    font-weight: bold; }
-  .pagination #juli {
-    padding-right: .5rem; }
-  .pagination a {
-    color: #000000;
-    text-decoration: none;
-    margin-right: .7rem; }
+    padding-left: 13px;
+    padding-right: 13px; }
+  #wrapper .numberBlock p {
+    font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+    text-align: center;
+    margin-top: 4px; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,6 +1,6 @@
 <div id="wrapper">
 
-<ul class="pagination">
+<!-- <ul class="pagination">
     <li id="juli">JULI</li>
     <li><a href="?page_nr=1">1</a></li>
     <li><a href="?page_nr=2">2</a></li>
@@ -26,9 +26,21 @@
     <li><a href="?page_nr=1">22</a></li>
     <li><a href="?page_nr=2">23</a></li>
     <li><a href="?page_nr=3">24</a></li>
-</ul>
+</ul> -->
 
+<div id="pagWrapper">
+<?php
+            echo "<div id='month' class='monthFont'>".date("M")."</div>";
+            for($i = 1; $i <= 24; $i++){
+                echo "<div class='numberBlock'><p><b>".$i."</b></p></div>";
+            }
+?>
+</div>
+<div id="pageWrapper">
     <h2>Vandaag in de Radio 1 Tour Top 100</h2>
+</div>
+
+    
 
     
 
