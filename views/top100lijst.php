@@ -2,22 +2,25 @@
 
     <div id="pagWrapper">
         <?php
-                include 'models/pagination.php';
+                    include 'models/pagination.php';
         ?>
     </div>
 
 
     <div id="pageWrapper">
-
-        <h2 id="pageHeader">Complete Tour Top</h2>
-
-
+        <div id="list5">
+            <h2 id="pageHeader">Vandaag in de Radio 1 Tour Top 100</h2>
+        
 
         <?php
-        	require 'models/select_top100list.php';
+            require 'models/select_top100list.php';
         ?>
 
-        
+        </div>
+
+        <?php
+            include 'views/sidebar.php';
+        ?>
 
     </div>
 
