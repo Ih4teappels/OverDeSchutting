@@ -73,6 +73,10 @@ html {
     margin-top: 4px; }
   #wrapper #pageWrapper {
     margin-left: 2em; }
+    #wrapper #pageWrapper #list5 {
+      width: 75%; }
+    #wrapper #pageWrapper #sidebar {
+      float: left; }
     #wrapper #pageWrapper img {
       float: left;
       height: auto; }
