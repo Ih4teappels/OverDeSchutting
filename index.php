@@ -1,9 +1,9 @@
 <?php
 
 // Gebruikersnaam, wachtwoord van de database etc ophalen
-//require 'includes/config.php' ;
+require 'includes/config.php' ;
 //// Maak de database connectie
-//require_once 'includes/database.php' ;
+require_once 'includes/database.php' ;
 
 
 include 'libs/functions.php';
@@ -13,6 +13,7 @@ $page = (empty($_GET['page'])) ? '' : $_GET['page'];
 
 include 'views/head.php';
 include 'views/header.php';
+
 
 
 
@@ -63,7 +64,7 @@ switch ($page) {
     
 
     include 'views/home.php';
-
+        include 'views/footer.php';
 
 }
 

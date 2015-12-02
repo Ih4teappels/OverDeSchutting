@@ -157,4 +157,14 @@ header {
     margin-left: 16em;
     margin-top: 8em; }
 
+#footer {
+  background-color: #444444;
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+  position: relative;
+  margin-top: -50px;
+  height: 50px;
+  clear: both; }
+
 /*# sourceMappingURL=nav.css.map */
