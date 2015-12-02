@@ -36,19 +36,10 @@
 <!--    <img src="img/toptxt.png" id="toptxt" alt="">-->
 
     <div id="navi">
-
-<<<<<<< HEAD
-      <ul id="menu_wrap" class="Black"><li class="button"><a href="#">RADIO1.NL</a></li><li class="button"><a href="#">TOUR TOP 100</a></li> <li class="search"><a href="#"></a><input type="text" placeHolder="Search"  /></li></ul>
-        <a href="http://www.google.com" id="luister">
-        <img src="img/luister.png">
-        </a>
-
-=======
       <ul id="menu_wrap" class="Black"><li class="button"><a href="www.radio1.nl/">RADIO1.NL</a></li><li class="button"><a href="?page=top100lijst">TOUR TOP 100</a></li> <li class="search"><a href="#"></a><input type="text" placeHolder="Search"  /></li></ul>
         <a href="http://www.google.com" id="luister">
         <img src="img/luister.png">
         </a>
->>>>>>> acdabe1568721bdc22f794f6ff2417309d82ac11
     </div>
 
 
