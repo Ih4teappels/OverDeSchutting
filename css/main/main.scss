@@ -35,18 +35,7 @@ html {
   color: #000000;
 //  padding: 5em;
   padding-top: 0;
-    #pageHeader {
-      color: red;
-      border-bottom: 1px dotted #000000;
-      padding-bottom: .5rem;
-      padding-left: 3em;
-      padding-right: 3em;
-      margin-left: 3em;
-      margin-right: 3em;
-      text-align: left;
-       margin-left: 0;
-      padding-left: 0;
-    }
+
 
     #pagWrapper {
       /*width: auto;*/
@@ -88,14 +77,42 @@ html {
 
 #pageWrapper {
   margin-left: 2em;
+  
 
 
     #list5 {
       width: 75%;
+      padding-right: 0;
+      margin-right: 0;
+      display: inline-block;
+
+      #pageHeader {
+        color: red;
+        width: 93%;
+        border-bottom: 1px dotted #000000;
+        padding-bottom: .5rem;
+        /*padding-left: 3em;*/
+        padding-right: 3em;
+        /*margin-left: 3em;*/
+        margin-right: 3em;
+        text-align: left;
+         margin-left: 0;
+        padding-left: 0;
+        display: inline-block;
+      }
+        
     }
 
     #sidebar {
-      float: left;
+      width: 15%;
+      display: inline-block;
+      margin-left: 3em;
+      margin-top: 2em;
+
+      img {
+        margin-top: 2em;
+      }
+
     }
 
     img {
@@ -123,12 +140,7 @@ html {
       margin-bottom: .2em;
       
     }
-
-    p {
-      
-    }
-
-}
+  }
 
 
 
