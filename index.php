@@ -1,9 +1,15 @@
 <?php
 
 // Gebruikersnaam, wachtwoord van de database etc ophalen
+<<<<<<< HEAD
 require 'includes/config.php' ;
 //// Maak de database connectie
 require_once 'includes/database.php' ;
+=======
+require 'includes/config.php';
+//// Maak de database connectie
+require_once 'includes/database.php';
+>>>>>>> acdabe1568721bdc22f794f6ff2417309d82ac11
 
 
 include 'libs/functions.php';
@@ -37,6 +43,10 @@ switch ($page) {
         break;
 
     case 'top100lijst':
+
+    	// require 'models/top100lijst.php';
+
+    	// $result = select_top100list($page_nr = 1);
 
         include 'views/top100lijst.php';
         
