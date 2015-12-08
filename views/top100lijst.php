@@ -9,11 +9,11 @@
 
     <div id="pageWrapper">
         <div id="list5">
-            <h2 id="pageHeader">Vandaag in de Radio 1 Tour Top 100</h2>
+            <h2 id="pageHeader">Complete Tour Top <img id="100logo" src="img/top100logo.png"></h2>
         
 
         <?php
-            require 'models/select_top100list.php';
+            require 'models/select_completeList.php';
         ?>
 
         </div>
