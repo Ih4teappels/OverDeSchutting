@@ -32,9 +32,9 @@
             <input type="text"><br>
             <p>Reactie</p>
             <textarea></textarea><br>
-            <input type="checkbox"><br>
-            <input type="checkbox">
+            <p>Gegevens onthouden</p><input type="checkbox"><br>
+            <p>Mail me bij nieuwe reacties</p><input type="checkbox">
         </form>
-    </div>
+    </  div>
 
 </div>

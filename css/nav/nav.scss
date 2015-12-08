@@ -99,8 +99,8 @@ header{
     -webkit-border-bottom-left-radius:8px;
     -moz-border-topleft-radius:8px;
     -moz-border-bottomleft-radius:8px;
-    border-top-left-radius:8;
-    border-bottom-left-radius:8px,
+    border-top-left-radius:8px;
+    border-bottom-left-radius:8px;
   }
   .Black,.Black .button a{
     color:#d7d7d7;
@@ -228,8 +228,10 @@ header{
   #reactInput{
     p{
       font-weight: bold;
+      width: 50%;
+      display: inline-block;
     }
-    input{
+          input{
       width:25em ;
       height: 2em;
 
