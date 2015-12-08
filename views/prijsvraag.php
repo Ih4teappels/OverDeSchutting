@@ -9,13 +9,13 @@
 
     <div id="pageWrapper">
         <div id="list5">
-            <h2 id="pageHeader">Vandaag in de Radio 1 Tour Top 100</h2>
+            <h2 id="pageHeader">Prijsvraag</h2>
         
 
         <?php
-            require 'models/select_top100list.php';
+            require 'models/select_prijsvraag.php';
         ?>
-
+        <h3>VRAAG </h3><h3>  Wat was het debuut album van Julien Clerc?</h3>
         </div>
 
         <?php
