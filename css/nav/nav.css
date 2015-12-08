@@ -162,7 +162,7 @@ header {
   padding-top: 10px;
   color: white;
   height: 50px;
-  margin: auto;
+  margin: 0;
   background: -webkit-linear-gradient(#4E4E4E, #1E1E1E);
   /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(#4E4E4E, #1E1E1E);
@@ -172,5 +172,14 @@ header {
   background: linear-gradient(#4E4E4E, #1E1E1E);
   /* Standard syntax */
   margin-bottom: 0px; }
+
+#react #reactInput p {
+  font-weight: bold; }
+#react #reactInput input {
+  width: 25em;
+  height: 2em; }
+#react #reactInput textarea {
+  height: 15em;
+  width: 50em; }
 
 /*# sourceMappingURL=nav.css.map */

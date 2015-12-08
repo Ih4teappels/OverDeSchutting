@@ -9,19 +9,32 @@
 
     <div id="pageWrapper">
         <div id="list5">
-            <h2 id="pageHeader">Vandaag in de Radio 1 Tour Top 100</h2>
+
         
 
         <?php
-            require 'models/select_top100list.php';
+            //require 'models/select_top100list.php';
         ?>
 
         </div>
 
         <?php
-            include 'views/sidebar.php';
+                include 'views/sidebar.php';
         ?>
 
+    <div id="react">
+        <form action="" id="reactInput">
+            <p>Naam</p>
+            <input type="text"><br>
+            <p>E-mail</p>
+            <input type="text"><br>
+            <p>Website</p>
+            <input type="text"><br>
+            <p>Reactie</p>
+            <textarea></textarea><br>
+            <input type="checkbox"><br>
+            <input type="checkbox">
+        </form>
     </div>
 
 </div>

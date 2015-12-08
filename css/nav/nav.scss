@@ -28,8 +28,6 @@ header{
     padding-left: 1em;
   }
 
-
-
   #logo{
     padding-top: 1em;
     padding-right: 1em;
@@ -203,13 +201,13 @@ header{
   }
 
 }
-
+//footer
 #footer{
   text-align: center;
   padding-top: 10px;
   color: white;
   height:50px;
-  margin: auto;
+  margin: 0;
 
 
   background: -webkit-linear-gradient(#4E4E4E, #1E1E1E);
@@ -223,4 +221,22 @@ header{
 
   margin-bottom: 0px;
 
+}
+
+//react
+#react{
+  #reactInput{
+    p{
+      font-weight: bold;
+    }
+    input{
+      width:25em ;
+      height: 2em;
+
+    }
+    textarea{
+      height: 15em;
+      width: 50em;
+    }
+  }
 }
