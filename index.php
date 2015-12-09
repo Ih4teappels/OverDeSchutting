@@ -46,9 +46,8 @@ switch ($page) {
         break;
 
 	case 'detail':
-
         include 'views/detail.php';
-        
+        header('lacation:index.php?action=view_ ');
         break;
     
 

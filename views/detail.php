@@ -22,19 +22,19 @@
                 include 'views/sidebar.php';
         ?>
 
-    <div id="react">
-        <form action="" id="reactInput">
-            <p>Naam</p>
+    <div id="react" action="?page=insert_comment&song_id=($song.id)">
+        <form action="" id="reactInput"><br>
+            <p>Naam</p><br>
             <input type="text"><br>
-            <p>E-mail</p>
+            <p>E-mail</p><br>
             <input type="text"><br>
-            <p>Website</p>
+            <p>Website</p><br>
             <input type="text"><br>
-            <p>Reactie</p>
+            <p>Reactie</p><br>
             <textarea></textarea><br>
             <p>Gegevens onthouden</p><input type="checkbox"><br>
-            <p>Mail me bij nieuwe reacties</p><input type="checkbox">
+               <p>Mail me bij nieuwe reacties</p><input type="checkbox">
         </form>
-    </  div>
+    </div>
 
 </div>

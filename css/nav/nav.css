@@ -76,7 +76,7 @@ header {
     -webkit-border-bottom-left-radius: 8px;
     -moz-border-topleft-radius: 8px;
     -moz-border-bottomleft-radius: 8px;
-    border-top-left-radius: 8;
+    border-top-left-radius: 8px;
     border-bottom-left-radius: 8px; }
   header .Black, header .Black .button a {
     color: #d7d7d7;
@@ -174,7 +174,9 @@ header {
   margin-bottom: 0px; }
 
 #react #reactInput p {
-  font-weight: bold; }
+  font-weight: bold;
+  width: 50%;
+  display: inline-block; }
 #react #reactInput input {
   width: 25em;
   height: 2em; }
