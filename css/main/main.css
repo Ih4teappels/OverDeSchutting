@@ -66,6 +66,16 @@ html {
       padding-right: 0;
       margin-right: 0;
       display: inline-block; }
+      #wrapper #pageWrapper #list5 #debuutVraag h3 {
+        color: red;
+        background-color: white; }
+      #wrapper #pageWrapper #list5 #debuutVraag #question {
+        font-weight: bold;
+        font-size: 17px;
+        background-color: white;
+        color: #000; }
+      #wrapper #pageWrapper #list5 #debuutVraag #quizInput {
+        width: 100%; }
       #wrapper #pageWrapper #list5 #pageHeader {
         color: red;
         width: 93%;

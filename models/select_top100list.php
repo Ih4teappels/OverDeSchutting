@@ -1,6 +1,8 @@
 <?php
-
-$query = "SELECT * FROM top100list";
+$page = $_GET['page'];
+$amount = 5;
+$offset = $page * $amount - 5;
+$query = "SELECT * FROM top100list LIMIT ".$offset." , 5";
 
 $result = $mysqli->query($query);
 
