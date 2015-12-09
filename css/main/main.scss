@@ -76,7 +76,6 @@ html {
 
 #pageWrapper {
   margin-left: 2em;
-  
 
 
     #list5 {
@@ -84,6 +83,24 @@ html {
       padding-right: 0;
       margin-right: 0;
       display: inline-block;
+
+      #debuutVraag {
+        h3 {
+          color: red;
+          background-color: white;
+        }
+        #question {
+          font-weight: bold;
+          font-size: 17px;
+          background-color: white;
+          color: #000;
+        }
+
+      #quizInput {
+        width: 100%;
+      }
+
+      }
 
       #pageHeader {
         color: red;
@@ -103,6 +120,7 @@ html {
       #100logo {
         
       }
+
         
     }
 
@@ -124,6 +142,8 @@ html {
       float: left;
       height: auto;
     }
+
+    
 
     h3 {
       color: #fff;
