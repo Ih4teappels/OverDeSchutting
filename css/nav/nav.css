@@ -184,4 +184,7 @@ header {
   height: 15em;
   width: 50em; }
 
+#button1 button2 {
+  display: inline-block; }
+
 /*# sourceMappingURL=nav.css.map */

@@ -50,7 +50,8 @@ switch ($page) {
 
 	case 'detail':
         include 'views/detail.php';
-        header('location:index.php?page=view_ ');
+        include "models/insert_comment.php";
+//        header('lacation:index.php?action=view_ ');
         break;
     
 
