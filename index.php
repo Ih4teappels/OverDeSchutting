@@ -47,7 +47,8 @@ switch ($page) {
 
 	case 'detail':
         include 'views/detail.php';
-        header('lacation:index.php?action=view_ ');
+        include "models/insert_comment.php";
+//        header('lacation:index.php?action=view_ ');
         break;
     
 
