@@ -1,23 +1,9 @@
 <?php
-$page = $_GET['page'];
+$day = $_GET['day'];
 $amount = 5;
-$offset = $page * $amount - 5;
+$offset = $day * $amount - 10;
 $query = "SELECT * FROM top100list LIMIT ".$offset." , 5";
 
 $result = $mysqli->query($query);
-
-while ($results = $result->fetch_assoc()){
-
-	echo  '<div id="100List">';
-	echo  '<img src="img/' . $results['thumbnail'] . '">';
-	echo  '<h3>' . $results['id'] . '</h3>';
-    echo  '<h4>' . $results['song_title'] . '</h4><br>';
-    echo  '<p>' . $results['small_content'] . '</p><br>';
-    // echo  $results['video'];
-    echo  '</div>';
-    
-
-
-};
 
 ?>

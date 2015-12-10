@@ -28,6 +28,7 @@ html {
   margin: auto;
   margin-top: 6.5em;
   width: 75%;
+  height: 200%;
   background-color: #ffffff;
   border-radius: 10px;
   border: 5px solid #ffffff;
@@ -50,6 +51,12 @@ html {
       padding-top: .2em;
       font-size: 25px;
     }
+
+      a {
+        text-decoration: none;
+        color: #000;
+      }
+
       #month {
         float: left;
       }
@@ -76,33 +83,10 @@ html {
 
 #pageWrapper {
   margin-left: 2em;
+  width: 77%;
+  display: inline-block;
 
-
-    #list5 {
-      width: 75%;
-      padding-right: 0;
-      margin-right: 0;
-      display: inline-block;
-
-      #debuutVraag {
-        h3 {
-          color: red;
-          background-color: white;
-        }
-        #question {
-          font-weight: bold;
-          font-size: 17px;
-          background-color: white;
-          color: #000;
-        }
-
-      #quizInput {
-        width: 100%;
-      }
-
-      }
-
-      #pageHeader {
+  #pageHeader {
         color: red;
         width: 93%;
         border-bottom: 1px dotted #000000;
@@ -117,26 +101,42 @@ html {
         display: inline-block;
       }
 
-      #100logo {
-        
-      }
+  #debuutVraag {
+        h3 {
+          color: red;
+          background-color: white;
+        }
+        #question {
+          font-weight: bold;
+          font-size: 17px;
+          background-color: white;
+          color: #000;
+        }
 
-        
-    }
 
-    #sidebar {
-      width: 20%;
+      
+
+
+    #list5 {
+      width: 75%;
+      padding-right: 0;
+      margin-right: 0;
       display: inline-block;
-      /*margin-left: 3em;*/
-      margin-top: 2em;
-      float: right;
 
-      img {
-        margin-top: 2em;
-        z-index: 2;
+      
+
+      #quizInput {
+        
       }
 
+      }
+
+      
+
+        
     }
+
+    
 
     img {
       float: left;
@@ -166,6 +166,20 @@ html {
       
     }
   }
+
+  #sidebar {
+      width: 20%;
+      display: inline-block;
+      /*margin-left: 3em;*/
+      margin-top: 2em;
+      float: right;
+
+      img {
+        margin-top: 2em;
+        z-index: 2;
+      }
+
+    }
 
     #complete100List {
       border-bottom: 1px dotted #000000;

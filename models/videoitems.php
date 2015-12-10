@@ -4,7 +4,7 @@ function select_videoitems($page_nr = 1) {
 
     global $mysqli;
 
-    $nr_items_page = NR_ITEMS_PAGE;
+    $nr_items_page = 5;
 
     $offset = ($page_nr-1) * $nr_items_page;
 

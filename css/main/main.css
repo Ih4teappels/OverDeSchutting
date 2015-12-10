@@ -20,6 +20,7 @@ html {
   margin: auto;
   margin-top: 6.5em;
   width: 75%;
+  height: 200%;
   background-color: #ffffff;
   border-radius: 10px;
   border: 5px solid #ffffff;
@@ -41,6 +42,9 @@ html {
     margin-top: 0;
     padding-top: .2em;
     font-size: 25px; }
+  #wrapper a {
+    text-decoration: none;
+    color: #000; }
   #wrapper #month {
     float: left; }
   #wrapper .monthFont {
@@ -60,44 +64,35 @@ html {
     text-align: center;
     margin-top: 4px; }
   #wrapper #pageWrapper {
-    margin-left: 2em; }
-    #wrapper #pageWrapper #list5 {
+    margin-left: 2em;
+    width: 77%;
+    display: inline-block; }
+    #wrapper #pageWrapper #pageHeader {
+      color: red;
+      width: 93%;
+      border-bottom: 1px dotted #000000;
+      padding-bottom: .5rem;
+      /*padding-left: 3em;*/
+      padding-right: 1em;
+      /*margin-left: 3em;*/
+      margin-right: 3em;
+      text-align: left;
+      margin-left: 0;
+      padding-left: 0;
+      display: inline-block; }
+    #wrapper #pageWrapper #debuutVraag h3 {
+      color: red;
+      background-color: white; }
+    #wrapper #pageWrapper #debuutVraag #question {
+      font-weight: bold;
+      font-size: 17px;
+      background-color: white;
+      color: #000; }
+    #wrapper #pageWrapper #debuutVraag #list5 {
       width: 75%;
       padding-right: 0;
       margin-right: 0;
       display: inline-block; }
-      #wrapper #pageWrapper #list5 #debuutVraag h3 {
-        color: red;
-        background-color: white; }
-      #wrapper #pageWrapper #list5 #debuutVraag #question {
-        font-weight: bold;
-        font-size: 17px;
-        background-color: white;
-        color: #000; }
-      #wrapper #pageWrapper #list5 #debuutVraag #quizInput {
-        width: 100%; }
-      #wrapper #pageWrapper #list5 #pageHeader {
-        color: red;
-        width: 93%;
-        border-bottom: 1px dotted #000000;
-        padding-bottom: .5rem;
-        /*padding-left: 3em;*/
-        padding-right: 1em;
-        /*margin-left: 3em;*/
-        margin-right: 3em;
-        text-align: left;
-        margin-left: 0;
-        padding-left: 0;
-        display: inline-block; }
-    #wrapper #pageWrapper #sidebar {
-      width: 20%;
-      display: inline-block;
-      /*margin-left: 3em;*/
-      margin-top: 2em;
-      float: right; }
-      #wrapper #pageWrapper #sidebar img {
-        margin-top: 2em;
-        z-index: 2; }
     #wrapper #pageWrapper img {
       float: left;
       height: auto; }
@@ -116,6 +111,15 @@ html {
       /*padding-top: .3em;
       font-size: 20px;
       margin-bottom: .2em;*/ }
+  #wrapper #sidebar {
+    width: 20%;
+    display: inline-block;
+    /*margin-left: 3em;*/
+    margin-top: 2em;
+    float: right; }
+    #wrapper #sidebar img {
+      margin-top: 2em;
+      z-index: 2; }
   #wrapper #complete100List {
     border-bottom: 1px dotted #000000;
     margin-top: 0;

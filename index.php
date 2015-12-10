@@ -9,17 +9,22 @@ require_once 'includes/database.php';
 include 'libs/functions.php';
 
 
-$page = (empty($_GET['page'])) ? '' : $_GET['page'];
+$page = (isset($_GET['page'])) ? $_GET['page'] : '' ;
 
 include 'views/head.php';
 include 'views/header.php';
 
+include 'views/pagination.php';
 
 
 switch ($page) {
-    case 'home':
 
-        include 'views/home.php';
+    case 'viewsongs':
+
+        require 'models/select_top100list.php';
+
+
+        include 'views/viewsongs.php';
 
         break;
 
@@ -31,15 +36,13 @@ switch ($page) {
 
     case 'prijsvraag':
 
+        require 'models/select_prijsvraag.php';
+
         include 'views/prijsvraag.php';
         
         break;
 
     case 'top100lijst':
-
-    	// require 'models/top100lijst.php';
-
-    	// $result = select_top100list($page_nr = 1);
 
         include 'views/top100lijst.php';
         
@@ -47,7 +50,7 @@ switch ($page) {
 
 	case 'detail':
         include 'views/detail.php';
-        header('lacation:index.php?action=view_ ');
+        header('location:index.php?page=view_ ');
         break;
     
 
@@ -64,10 +67,10 @@ switch ($page) {
     // $result = select_videoitems($page_nr);
 
     
-
-    include 'views/home.php';
+    // include 'views/home.php';
+    // header('location:index.php?page=2');
 
 
 }
-
+include 'views/sidebar.php';
 include 'views/footer.php';
