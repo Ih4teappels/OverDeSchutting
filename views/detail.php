@@ -1,26 +1,4 @@
-<div id="wrapper">
-
-    <div id="pagWrapper">
-        <?php
-                    include 'models/pagination.php';
-        ?>
-    </div>
-
-
-    <div id="pageWrapper">
-        <div id="list5">
-
-        
-
-        <?php
-            //require 'models/select_top100list.php';
-        ?>
-
-        </div>
-
-        <?php
-                include 'views/sidebar.php';
-        ?>
+<div id="pageWrapper">
 
     <div id="react">
         <form method="post" id="reactInput"><br>

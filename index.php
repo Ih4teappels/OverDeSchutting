@@ -44,13 +44,18 @@ switch ($page) {
 
     case 'top100lijst':
 
+        include 'models/select_completeList.php';
+
         include 'views/top100lijst.php';
         
         break;
 
 	case 'detail':
-        include 'views/detail.php';
+    include 'views/detail.php';
         include "models/insert_comment.php";
+        include "models/select_comments.php";
+        
+
 //        header('lacation:index.php?action=view_ ');
         break;
     
@@ -74,4 +79,4 @@ switch ($page) {
 
 }
 include 'views/sidebar.php';
-include 'views/footer.php';
+// include 'views/footer.php';

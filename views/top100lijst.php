@@ -1,27 +1,16 @@
-<div id="wrapper">
-
-    <div id="pagWrapper">
-        <?php
-                    include 'models/pagination.php';
-        ?>
-    </div>
-
-
-    <div id="pageWrapper">
-        <div id="list5">
+<div id="pageWrapper">
             <h2 id="pageHeader">Complete Tour Top <img id="100logo" src="img/top100logo.png"></h2>
         
 
-        <?php
-            require 'models/select_completeList.php';
-        ?>
+    <?php
+        while ($results = $result->fetch_assoc()){
 
-        </div>
-
-        <?php
-            include 'views/sidebar.php';
-        ?>
-
-    </div>
+            echo  '<div id="complete100List">';
+            echo  '<h3>' . $results['id'] . '</h3>' . '<h4>' . $results['artist'] . " - " . $results['song_title'] . '</h4>';
+            // echo  $results['video'];
+            echo  '</div>';
+    
+        };
+    ?>
 
 </div>
