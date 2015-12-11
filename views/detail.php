@@ -15,7 +15,7 @@
 
             <div id="button1"><p>Gegevens onthouden</p><input type="checkbox"><br></div>
                <div id="button2"><p>Mail me bij nieuwe reacties</p><input type="checkbox"></div>
-            <input type="submit">
+            <input type="submit" name="submit">
         </form>
     </div>
 </div>
