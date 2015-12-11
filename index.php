@@ -30,6 +30,8 @@ switch ($page) {
 
     case 'testimonials':
 
+        require 'models/select_bner.php';
+
         include 'views/testimonials.php';
         
         break;
