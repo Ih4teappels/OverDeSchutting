@@ -12,9 +12,12 @@ if (isset ($_POST['submit'])) {
 //echo $date
 
 
+
+
     $query = "INSERT INTO reactionform (name, email, website, reaction,song_id, created_at) VALUES ('" . $naam . "','" . $mail . "','" . $website . "','" . $comment . "','" . $song_id . "','" . $date . "')";
     $mysqli->query($query);
 };
+
 
         ?>
     

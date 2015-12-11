@@ -2,16 +2,17 @@
     <?php
         if ($results = $result->fetch_assoc()){
 
-            echo  '<div id="list5"><div id="100List">';
+            echo  '<div id="henk"><div id="henk2">';
             echo  '<h4>' . $results['song_title'] . '</h4><br>';
             echo  '<h3>' . $results['id'] . '</h3>';
             echo  '<iframe width="693" height="390" src="https://www.youtube.com/embed/' . $results['video'] . '"frameborder="0" allowfullscreen></iframe>';
             echo  '<p>' . $results['content'] . '</p><br>';
             echo  '</div></div>';
-    
         } else {
             echo 'error';
         };
+
+
     ?>
 
     <div id="react">
