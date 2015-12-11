@@ -15,7 +15,7 @@
     ?>
 
     <div id="react">
-        <form method="post" id="reactInput"><br>
+        <form method="post" id="reactInput" action="?page=detail"><br>
             <p>Naam</p><br>
             <input type="text" name="naam"><br>
             <p>E-mail</p><br>
@@ -23,6 +23,7 @@
             <p>Website</p><br>
             <input type="text" name="website"><br>
             <p>Reactie</p><br>
+
             <textarea name="comment"></textarea><br>
 
 
