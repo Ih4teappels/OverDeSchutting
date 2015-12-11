@@ -10,12 +10,15 @@ if (isset ($_POST['submit'])) {
 //echo $comment;
     $date = date('Y-m-d H:i');
 //echo $date
+    $id = $_POST['songid'];
 
 
 
-
-    $query = "INSERT INTO reactionform (name, email, website, reaction,song_id, created_at) VALUES ('" . $naam . "','" . $mail . "','" . $website . "','" . $comment . "','" . $song_id . "','" . $date . "')";
+    $query = "INSERT INTO reactionform (name, email, website, reaction,song_id, created_at) VALUES ('" . $naam . "','" . $mail . "','" . $website . "','" . $comment . "','" . $id . "','" . $date . "')";
     $mysqli->query($query);
+
+
+
 };
 
 

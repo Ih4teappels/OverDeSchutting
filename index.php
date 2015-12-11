@@ -54,13 +54,14 @@ switch ($page) {
 	case 'detail':
         include 'models/select_detail.php';
         include 'views/detail.php';
-        include "models/insert_comment.php";
         include "models/select_comments.php";
 //        header('lacation:index.php?action=view_ ');
         break;
 
-    case'';
-
+    case 'insert_comment';
+        $id = $_POST['songid'];
+        include "models/insert_comment.php";
+        header('Location:index.php?page=detail&song='.$id.'');
         break;
 
 

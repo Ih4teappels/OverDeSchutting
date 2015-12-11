@@ -16,7 +16,8 @@
     ?>
 
     <div id="react">
-        <form method="post" id="reactInput" action="?page=detail"><br>
+        <form method="post" id="reactInput" action="index.php?page=insert_comment"><br>
+            <input type="hidden" name="songid" value="<?php echo $results['id'] ?>">
             <p>Naam</p><br>
             <input type="text" name="naam"><br>
             <p>E-mail</p><br>
