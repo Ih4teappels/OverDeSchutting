@@ -5,7 +5,7 @@
             echo  '<div id="list5"><div id="100List">';
             echo  '<h4>' . $results['song_title'] . '</h4><br>';
             echo  '<h3>' . $results['id'] . '</h3>';
-            echo  '<iframe width="420" height="315" src="' . $results['video'] . '?autoplay=0"></iframe>';
+            echo  '<iframe width="693" height="390" src="https://www.youtube.com/embed/' . $results['video'] . '"frameborder="0" allowfullscreen></iframe>';
             echo  '<p>' . $results['content'] . '</p><br>';
             echo  '</div></div>';
     
