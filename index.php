@@ -54,9 +54,11 @@ switch ($page) {
     include 'views/detail.php';
         include "models/insert_comment.php";
         include "models/select_comments.php";
-        
-
 //        header('lacation:index.php?action=view_ ');
+        break;
+
+    case'';
+
         break;
     
 
