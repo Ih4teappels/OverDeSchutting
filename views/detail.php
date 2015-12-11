@@ -8,10 +8,11 @@
             echo  '<iframe width="693" height="390" src="https://www.youtube.com/embed/' . $results['video'] . '"frameborder="0" allowfullscreen></iframe>';
             echo  '<p>' . $results['content'] . '</p><br>';
             echo  '</div></div>';
-    
         } else {
             echo 'error';
         };
+
+
     ?>
 
     <div id="react">
@@ -29,7 +30,7 @@
 
             <div id="button1"><p>Gegevens onthouden</p><input type="checkbox"><br></div>
                <div id="button2"><p>Mail me bij nieuwe reacties</p><input type="checkbox"></div>
-            <input type="submit">
+            <input type="submit" name="submit">
         </form>
     </div>
 </div>
