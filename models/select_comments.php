@@ -1,24 +1,29 @@
 <?php
-//function select_top100list($page_nr = 1) {
-//
-//    global $mysqli;
-//
-//    $nr_items_page = 'NR_ITEMS_PAGE';
-//
-//    $offset = ($page_nr-1) * $nr_items_page;
-//
-//    $sql = "SELECT * FROM overdeschutting LIMIT " . $offset . ", " . $nr_items_page;
-//    $result = $mysqli->query($sql);
-//    while($videoitems = $result->fetch_assoc()){
-//        $videoList[] = $videoitems;
-//    }
-//    return $videoList;
-//
-//
-//}
 
+//$query2 = "SELECT `name` FROM `reactionform` WHERE `name` = 'peter'";
+$query2 = "SELECT * FROM reactionform ";
+// in query 2 zetten WHERE song_id = 2
 
-//$sql = "SELECT * FROM `reactionform ";
-//
-//
-////WHERE `persoon`
+$result = $mysqli->query($query2);
+
+echo '<table style="width:25%">';
+
+echo '<tr>';
+echo '<th>' . 'name';
+echo '<th>' . 'email';
+echo '<th>' . 'website';
+echo '<th>' . 'reaction';
+echo '<th>' . 'created_at';
+echo '</tr>';
+
+while ($results = $result->fetch_assoc()){
+
+    echo '<tr>';
+    echo '<td>' . $results['name'] . '</td>';
+    echo '<td>' . $results['email'] . '</td>';
+    echo '<td>' . $results['website'] . '</td>';
+    echo '<td>' . $results['reaction'] . '</td>';
+    echo '<td>' . $results['created_at'] . '</td>';
+
+    echo '</tr>';
+};
