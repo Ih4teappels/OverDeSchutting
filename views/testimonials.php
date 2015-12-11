@@ -1,27 +1,21 @@
-<div id="wrapper">
+<div id="pageWrapper">
 
-    <div id="pagWrapper">
-        <?php
-                    include 'models/pagination.php';
-        ?>
-    </div>
+    <h2 id="pageHeader">Tour Top lijsten van BN'ers</h2>
 
 
-    <div id="pageWrapper">
-        <div id="list5">
-            <h2 id="pageHeader">Vandaag in de Radio 1 Tour Top 100</h2>
-        
+    <?php
 
-        <?php
-            require 'models/select_top100list.php';
-        ?>
+        while ($results = $result->fetch_assoc()){
 
-        </div>
+            echo  '<div id="100List">';
+            echo  '<img src="img/' . $results['thumb'] . '">';
+            echo  '<h3>' . $results['id'] . '</h3>';
+            echo  '<h4>' . $results['name'] . '</h4><br>';
+            echo  '<p>' . $results['content'] . '</p><br>';
+            // echo  $results['video'];
+            echo  '</div>';
+        };
 
-        <?php
-            include 'views/sidebar.php';
-        ?>
-
-    </div>
+?>
 
 </div>
