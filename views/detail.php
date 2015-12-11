@@ -1,4 +1,18 @@
 <div id="pageWrapper">
+    <?php
+        if ($results = $result->fetch_assoc()){
+
+            echo  '<div id="list5"><div id="100List">';
+            echo  '<h4>' . $results['song_title'] . '</h4><br>';
+            echo  '<h3>' . $results['id'] . '</h3>';
+            echo  '<iframe width="420" height="315" src="' . $results['video'] . '?autoplay=1"></iframe>';
+            echo  '<p>' . $results['content'] . '</p><br>';
+            echo  '</div></div>';
+    
+        } else {
+            echo 'error';
+        };
+    ?>
 
     <div id="react">
         <form method="post" id="reactInput"><br>

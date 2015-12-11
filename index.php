@@ -8,7 +8,7 @@ require_once 'includes/database.php';
 
 include 'libs/functions.php';
 
-
+$song = (isset($_GET['song'])) ? $_GET['song'] : '' ;
 $page = (isset($_GET['page'])) ? $_GET['page'] : '' ;
 
 include 'views/head.php';
@@ -22,7 +22,6 @@ switch ($page) {
     case 'viewsongs':
 
         require 'models/select_top100list.php';
-
 
         include 'views/viewsongs.php';
 
@@ -53,7 +52,8 @@ switch ($page) {
         break;
 
 	case 'detail':
-    include 'views/detail.php';
+        include 'models/select_detail.php';
+        include 'views/detail.php';
         include "models/insert_comment.php";
         include "models/select_comments.php";
 //        header('lacation:index.php?action=view_ ');
