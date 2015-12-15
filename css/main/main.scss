@@ -86,6 +86,10 @@ html {
   width: 77%;
   display: inline-block;
 
+  #100logo {
+    display: inline-block;
+  }
+
   #pageHeader {
         color: red;
         width: 93%;
@@ -145,7 +149,7 @@ html {
 
     
 
-    h3 {
+    #songId {
       color: #fff;
       background-color: red;
       padding-top: .3em;
