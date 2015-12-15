@@ -51,11 +51,18 @@ switch ($page) {
         
         break;
 
+    case 'search':
+
+        $search_string = (isset($_POST['search_string'])) ? $_POST['search_string'] : "" ;
+
+        require 'models/select_search.php';
+
+        break;
+
 	case 'detail':
         include 'models/select_detail.php';
         include 'views/detail.php';
         include "models/select_comments.php";
-//        header('lacation:index.php?action=view_ ');
         break;
 
     case 'insert_comment';
@@ -69,17 +76,7 @@ switch ($page) {
 
     default:
 
-    // $page_nr = isset($_GET['page_nr']) ? $_GET['page_nr'] : 1;
-
-    // $videoItemId = isset($_GET['videoItemId']) ? $_GET['videoItemId'] : "";
-
-    // require 'models/videoitems.php';
-    
-    // $result = select_videoitems($page_nr);
-
-    
-    // include 'views/home.php';
-    // header('location:index.php?page=2');
+    header('location:index.php?page=viewsongs&day=2'); 
 
 
 }

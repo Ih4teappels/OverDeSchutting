@@ -6,7 +6,7 @@
         while ($results = $result->fetch_assoc()){
 
             echo  '<div id="complete100List">';
-            echo  '<h3>' . $results['id'] . '</h3>' . '<h4>' . $results['artist'] . " - " . $results['song_title'] . '</h4>';
+            echo  '<a href="index.php?page=detail&song=' . $results['id'] . '"><h3>' . $results['id'] . '</h3>' . '<h4>' . $results['artist'] . " - " . $results['song_title'] . '</h4></a>';
             // echo  $results['video'];
             echo  '</div>';
     

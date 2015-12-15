@@ -7,7 +7,7 @@
 
 $search_string;
 
-$sql = "SELECT * FROM newsarticles WHERE title LIKE '%$search_string%'";
+$sql = "SELECT * FROM top100list WHERE title, artist LIKE '%$search_string%'";
 
 $search_result = $mysqli->query($sql);
 
