@@ -74,4 +74,4 @@ switch ($page) {
 
 }
 include 'views/sidebar.php';
-// include 'views/footer.php';
+include 'views/footer.php';
