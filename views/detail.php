@@ -9,11 +9,11 @@
         if ($results = $result->fetch_assoc()){
 
 
-            echo '<div id="previousSong"><a href="index.php?page=detail&song=' . $previousSong . '"><h3>' . $previousSong . '</h3></a></div>';
+            echo '<div ><a href="index.php?page=detail&song=' . $previousSong . '"><h3 id="previousSong">' . $previousSong . '</h3></a></div>';
 
 
             echo  '<h3 id="currentSong">' . $results['id'] . '</h3>';
-            echo '<div id="nextSong"><a href="index.php?page=detail&song=' . $nextSong . '"><h3>' . $nextSong . '</h3></a></div>';
+            echo '<div><a href="index.php?page=detail&song=' . $nextSong . '"><h3  id="nextSong">' . $nextSong . '</h3></a></div>';
             echo  '<h4>' . $results['song_title'] . '</h4><br>';
 
 
