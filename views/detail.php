@@ -7,12 +7,12 @@
 
         if ($results = $result->fetch_assoc()){
 
-            echo '<div id="previousSong"><h3>' . $previousSong . '</h3></div>';
+            echo '<div id="previousSong"><a href="index.php?page=detail&song=' . $previousSong . '"><h3>' . $previousSong . '</h3></a></div>';
 
             echo  '<h3>' . $results['id'] . '</h3>';
             echo  '<h4>' . $results['song_title'] . '</h4><br>';
 
-            echo '<div id="nextSong"><h3>' . $nextSong . '</h3></div>';
+            echo '<a href="index.php?page=detail&song=' . $nextSong . '"><div id="nextSong"><h3>' . $nextSong . '</h3></a></div>';
             
 
             echo  '<div id="henk"><div id="henk2">';
