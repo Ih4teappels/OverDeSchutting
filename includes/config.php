@@ -18,7 +18,7 @@ setlocale(LC_ALL, 'nl_NL');
         define('DB_PASSWORD','');
     } else {
         define('DB_HOST','127.0.0.1');
-        define('DB_NAME','overDeSchutting');
+        define('DB_NAME','17786_overDeSchutting');
         define('DB_USERNAME','ODS');
         define('DB_PASSWORD','overDeSchuttingPass');
         //ODS
