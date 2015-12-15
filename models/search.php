@@ -7,7 +7,7 @@
 <?php
 
    $mysqli = mysqli_connect('localhost',"root","","overdeschutting");
-    // $mysqli = mysqli_connect('127.0.0.1',"kevinm97","mybandpass","17786_myband");
+    // $mysqli = mysqli_connect('127.0.0.1',"overDeSchutting","ODS","overDeSchuttingPass");
 
 
 

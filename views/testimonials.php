@@ -9,7 +9,7 @@
 
             echo  '<div id="100List">';
             echo  '<img src="img/' . $results['thumb'] . '">';
-            echo  '<h3>' . $results['id'] . '</h3>';
+            echo  '<h3 id="songId">' . $results['id'] . '</h3>';
             echo  '<h4>' . $results['name'] . '</h4><br>';
             echo  '<p>' . $results['content'] . '</p><br>';
             // echo  $results['video'];

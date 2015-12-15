@@ -67,6 +67,8 @@ html {
     margin-left: 2em;
     width: 77%;
     display: inline-block; }
+    #wrapper #pageWrapper #100logo {
+      display: inline-block; }
     #wrapper #pageWrapper #pageHeader {
       color: red;
       width: 93%;
@@ -96,7 +98,7 @@ html {
     #wrapper #pageWrapper img {
       float: left;
       height: auto; }
-    #wrapper #pageWrapper h3 {
+    #wrapper #pageWrapper #songId {
       color: #fff;
       background-color: red;
       padding-top: .3em;
