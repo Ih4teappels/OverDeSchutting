@@ -32,25 +32,30 @@
         };
 
 
-    ?>
 
+
+
+
+    ?>
+    <h2 id="pageHeader">Reageer op dit bericht</h2>
     <div id="react">
         <form method="post" id="reactInput" action="index.php?page=insert_comment"><br>
             <input type="hidden" name="songid" value="<?php echo $results['id'] ?>">
             <p>Naam</p><br>
-            <input type="text" name="naam"><br>
+            <input type="text" name="naam" id="text"><br>
             <p>E-mail</p><br>
-            <input type="text" name="mail"><br>
+            <input type="text" name="mail" id="text"><br>
             <p>Website</p><br>
-            <input type="text" name="website"><br>
+            <input type="text" name="website" id="text"><br>
             <p>Reactie</p><br>
 
             <textarea name="comment"></textarea><br>
 
 
-            <div id="button1"><p>Gegevens onthouden</p><input type="checkbox"><br></div>
-               <div id="button2"><p>Mail me bij nieuwe reacties</p><input type="checkbox"></div>
+            <div id="chek"><input type="checkbox"><p>Gegevens onthouden</p><br></div>
+            <div id="chek"><input type="checkbox"><p>Mail me bij nieuwe reacties</p></div>
             <input type="submit" name="submit">
         </form>
     </div>
+    <h2 id="pageHeader">Reacties op dit bericht</h2>
 </div>

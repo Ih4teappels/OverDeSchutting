@@ -231,7 +231,7 @@ header{
       width: 50%;
       display: inline-block;
     }
-          input{
+          #text{
       width:25em ;
       height: 2em;
 
@@ -244,7 +244,8 @@ header{
 }
 
 #button1 .button2{
-  display: inline-block;
+  float: left;
+  margin: auto;
 }
 
 //detailpage
@@ -287,4 +288,9 @@ h3{
   margin-top: 0.4em;
   margin-left: 25em;
   margin-right: .5em;
+}
+
+#commentsWrapper{
+  float: left;
+  width: 75%;
 }
