@@ -9,10 +9,8 @@ $resultComments = $mysqli->query($query2);
 
 while ($results = $resultComments->fetch_assoc()){
 echo '<div id="commentsWrapper">';
-    echo '<p>' . $results['name'].'</p>';
-    echo '<p>' . $results['email'].'</p>';
-    echo '<p>' . $results['website'].'</p>';
-    echo '<p>' . $results['reaction'].'</p>';
-    echo '<p>' . $results['created_at'].'</p>';
+    echo '<p id="nametext">' . $results['name'].'</p>';
+    echo '<p id="timetext">' . $results['created_at'].'</p>'.'<br>';
+    echo '<p id="reactiontext">' . $results['reaction'].'</p>';
 echo '</div>';
 }

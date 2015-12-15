@@ -292,5 +292,24 @@ h3{
 
 #commentsWrapper{
   float: left;
-  width: 75%;
+  padding-left: 2em;
+  width: 40%;
+
+}
+
+#nametext{
+  font-weight: bold;
+}
+
+#timetext{
+  color: lightgrey;
+}
+
+#reactiontext{
+  padding-bottom: 2em;
+  border-bottom: dotted 1px;
+}
+
+iframe{
+  margin-left: 10em;
 }
