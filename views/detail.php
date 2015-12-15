@@ -35,6 +35,7 @@
 
 
 
+
     ?>
     <h2 id="pageHeader">Reageer op dit bericht</h2>
     <div id="react">

@@ -227,4 +227,8 @@ h3 {
   margin-left: 25em;
   margin-right: .5em; }
 
+#commentsWrapper {
+  float: left;
+  width: 75%; }
+
 /*# sourceMappingURL=nav.css.map */

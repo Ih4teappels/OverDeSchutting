@@ -53,8 +53,8 @@ switch ($page) {
 
 	case 'detail':
         include 'models/select_detail.php';
-        include "models/select_comments.php";
         include 'views/detail.php';
+        include "models/select_comments.php";
         
         break;
 

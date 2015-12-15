@@ -7,18 +7,12 @@ $query2 = "SELECT * FROM reactionform WHERE song_id=$song ";
 $result = $mysqli->query($query2);
 
 
-
-
-
-
-
 while ($results = $result->fetch_assoc()){
-
-    echo $results['name'] . '</td>';
-    echo $results['email'] . '</td>';
-    echo $results['website'] . '</td>';
-    echo $results['reaction'] . '</td>';
-    echo $results['created_at'] . '</td>';
-
-
+echo '<div id="commentsWrapper">';
+    echo '<p>' . $results['name'].'</p>';
+    echo '<p>' . $results['email'].'</p>';
+    echo '<p>' . $results['website'].'</p>';
+    echo '<p>' . $results['reaction'].'</p>';
+    echo '<p>' . $results['created_at'].'</p>';
+echo '</div>';
 }
