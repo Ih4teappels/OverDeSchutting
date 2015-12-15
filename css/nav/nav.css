@@ -177,7 +177,7 @@ header {
   font-weight: bold;
   width: 50%;
   display: inline-block; }
-#react #reactInput input {
+#react #reactInput #text {
   width: 25em;
   height: 2em; }
 #react #reactInput textarea {
@@ -185,7 +185,8 @@ header {
   width: 50em; }
 
 #button1 .button2 {
-  display: inline-block; }
+  float: left;
+  margin: auto; }
 
 #previousSong {
   color: #fff;
