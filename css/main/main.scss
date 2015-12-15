@@ -127,6 +127,7 @@ html {
       margin-right: 0;
       display: inline-block;
 
+
       
 
       #quizInput {
@@ -145,6 +146,19 @@ html {
     img {
       float: left;
       height: auto;
+    }
+
+    #textimg {
+      float: none;
+      display: inline-block;
+    }
+
+    #textText {
+      color :#1db5ff;
+    }
+
+    #socialimg {
+      float: right;
     }
 
     

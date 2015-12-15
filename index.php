@@ -51,18 +51,11 @@ switch ($page) {
         
         break;
 
-    case 'search':
-
-        $search_string = (isset($_POST['search_string'])) ? $_POST['search_string'] : "" ;
-
-        require 'models/select_search.php';
-
-        break;
-
 	case 'detail':
         include 'models/select_detail.php';
-        include 'views/detail.php';
         include "models/select_comments.php";
+        include 'views/detail.php';
+        
         break;
 
     case 'insert_comment';
