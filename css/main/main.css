@@ -98,6 +98,13 @@ html {
     #wrapper #pageWrapper img {
       float: left;
       height: auto; }
+    #wrapper #pageWrapper #textimg {
+      float: none;
+      display: inline-block; }
+    #wrapper #pageWrapper #textText {
+      color: #1db5ff; }
+    #wrapper #pageWrapper #socialimg {
+      float: right; }
     #wrapper #pageWrapper #songId {
       color: #fff;
       background-color: red;
