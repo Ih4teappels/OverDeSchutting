@@ -243,6 +243,20 @@ header{
   }
 }
 
-#button1 button2{
+#button1 .button2{
   display: inline-block;
+}
+
+//detailpage
+#previousSong{
+  float: left;
+}
+
+#nextSong{
+  float: right;
+  //margin-right: 10em;
+}
+
+#currentSong{
+  margin-left: 10em;
 }

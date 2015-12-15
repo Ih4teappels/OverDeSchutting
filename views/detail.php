@@ -1,4 +1,5 @@
 <div id="pageWrapper">
+    <div id="pageHeader"><h2>In de Radio 1 Tour Top 100</h2></div>
     <?php
 
         $previousSong = $song - 1;
@@ -7,13 +8,16 @@
 
         if ($results = $result->fetch_assoc()){
 
+
             echo '<div id="previousSong"><a href="index.php?page=detail&song=' . $previousSong . '"><h3>' . $previousSong . '</h3></a></div>';
 
-            echo  '<h3>' . $results['id'] . '</h3>';
+
+            echo  '<h3 id="currentSong">' . $results['id'] . '</h3>';
+            echo '<div id="nextSong"><a href="index.php?page=detail&song=' . $nextSong . '"><h3>' . $nextSong . '</h3></a></div>';
             echo  '<h4>' . $results['song_title'] . '</h4><br>';
 
-            echo '<div id="nextSong"><a href="index.php?page=detail&song=' . $nextSong . '"><h3>' . $nextSong . '</h3></a></div>';
-            
+
+
 
             echo  '<div id="henk"><div id="henk2">';
             // echo  '<h4>' . $results['song_title'] . '</h4><br>';
@@ -21,6 +25,8 @@
             echo  '<iframe width="693" height="390" src="https://www.youtube.com/embed/' . $results['video'] . '"frameborder="0" allowfullscreen></iframe>';
             echo  '<p>' . $results['content'] . '</p><br>';
             echo  '</div></div>';
+
+
         } else {
             echo 'error';
         };

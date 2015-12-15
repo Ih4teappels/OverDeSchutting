@@ -184,7 +184,16 @@ header {
   height: 15em;
   width: 50em; }
 
-#button1 button2 {
+#button1 .button2 {
   display: inline-block; }
+
+#previousSong {
+  float: left; }
+
+#nextSong {
+  float: right; }
+
+#currentSong {
+  margin-left: 10em; }
 
 /*# sourceMappingURL=nav.css.map */
