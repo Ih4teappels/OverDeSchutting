@@ -12,7 +12,7 @@
             echo  '<h3>' . $results['id'] . '</h3>';
             echo  '<h4>' . $results['song_title'] . '</h4><br>';
 
-            echo '<a href="index.php?page=detail&song=' . $nextSong . '"><div id="nextSong"><h3>' . $nextSong . '</h3></a></div>';
+            echo '<div id="nextSong"><a href="index.php?page=detail&song=' . $nextSong . '"><h3>' . $nextSong . '</h3></a></div>';
             
 
             echo  '<div id="henk"><div id="henk2">';
